@@ -14,11 +14,12 @@ export default function Routes() {
         <Route
           exact
           path={routes.HOME}
-          component={() =>
+          component={() => (
             <Home
               location={location}
               onLocation={setLocation}
-            />}
+            />
+          )}
         />
         <Route path={routes.WEATHER} component={() => (
           <Weather location={location} />
