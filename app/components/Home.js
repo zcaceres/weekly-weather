@@ -8,10 +8,9 @@ export default function Home({
   onLocation
 }) {
   const [result] = FAKE_LOCATION.results;
-  const { geometry } = result;
 
   function handleSubmit() {
-    onLocation(geometry.location);
+    onLocation(result);
   }
 
   return (
@@ -27,8 +26,6 @@ export default function Home({
           <button onClick={handleSubmit}>Get Weather</button>
         </Link>
       </form>
-
-      {location}
     </div>
   );
 }
