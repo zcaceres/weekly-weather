@@ -122,15 +122,6 @@ const BackgroundOverlay = styled.div.attrs({
   `}
 `
 
-const Heading = styled(FlexboxRow)`
-  margin-bottom: 10px;
-  width: 100%;
-
-  span {
-    margin-left: 10px;
-  }
-`;
-
 const StyledWindIcon = styled(WindIcon)`
   fill: antiquewhite;
 
@@ -160,7 +151,6 @@ export default function Forecast({
   isNight
 }) {
   const [isDetailedForecastVisible, setIsDetailedForecastVisible] = useState(false);
-
 
   return (
     <Wrapper

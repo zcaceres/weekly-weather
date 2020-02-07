@@ -15,9 +15,9 @@ const Wrapper = styled.div`
 const NavBar = styled.div`
   z-index: 1;
   width: 100vw;
+  background: antiquewhite;
   padding-left: 20px;
-  text-align: center;
-  font-size: 4rem;
+  font-size: 1.5rem;
   padding-top: 16px;
   padding-bottom: 16px;
 
