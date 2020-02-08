@@ -7,8 +7,9 @@ Rainy: Photo by Eutah Mizushima on Unsplash
 Sunny: Photo by Ivana Cajina on Unsplash
 
 Todos:
-1. Google maps geolocation integration for location service
-2. Save lat and lng to local storage
-3. UI improvements
-4. Remaining icons/BGs
-5. 
+1. Clean up existing code 
+2. Google maps geolocation integration for location service
+3. Save lat and lng to local storage
+4. UI improvements
+5. Remaining icons/BGs
+6. restrict api key 
